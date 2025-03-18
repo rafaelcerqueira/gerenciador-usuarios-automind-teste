@@ -1,0 +1,15 @@
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/bin/Debug/net9.0/CadastroDeUsuarios
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/bin/Debug/net9.0/CadastroDeUsuarios.deps.json
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/bin/Debug/net9.0/CadastroDeUsuarios.runtimeconfig.json
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/bin/Debug/net9.0/CadastroDeUsuarios.dll
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/bin/Debug/net9.0/CadastroDeUsuarios.pdb
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/obj/Debug/net9.0/CadastroDeUsuarios.GeneratedMSBuildEditorConfig.editorconfig
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/obj/Debug/net9.0/CadastroDeUsuarios.AssemblyInfoInputs.cache
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/obj/Debug/net9.0/CadastroDeUsuarios.AssemblyInfo.cs
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/obj/Debug/net9.0/CadastroDeUsuarios.csproj.CoreCompileInputs.cache
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/obj/Debug/net9.0/CadastroDeUsuarios.sourcelink.json
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/obj/Debug/net9.0/CadastroDeUsuarios.dll
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/obj/Debug/net9.0/refint/CadastroDeUsuarios.dll
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/obj/Debug/net9.0/CadastroDeUsuarios.pdb
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/obj/Debug/net9.0/CadastroDeUsuarios.genruntimeconfig.cache
+/home/rafael/Documents/01-DEV/automind/automind-gerenciador-users/CadastroDeUsuarios/obj/Debug/net9.0/ref/CadastroDeUsuarios.dll
