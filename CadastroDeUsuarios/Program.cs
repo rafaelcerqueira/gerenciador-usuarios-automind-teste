@@ -13,6 +13,7 @@ namespace CadastroDeUsuarios
 
         static void MenuPrincipal()
         {
+            //Opções de escolha das funcionalidades. Selecione uma das opções ao rodar o projeto no terminal
             Console.WriteLine("\nEcolha uma opção:");
             Console.WriteLine("1 - Cadastrar Usuário");
             Console.WriteLine("2 - Listar Usuários");
@@ -21,6 +22,7 @@ namespace CadastroDeUsuarios
 
             string opcao = Console.ReadLine() ?? string.Empty;
 
+            //De acordo com a opção selecionada, o programa irá rodar um dos métodos. 
             switch (opcao)
             {
                 case "1":
