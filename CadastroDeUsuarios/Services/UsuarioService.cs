@@ -47,5 +47,23 @@ namespace CadastroDeUsuarios.Services
                 Console.WriteLine($"Nome: {usuario.Nome}, E-mail: {usuario.Email}, Idade: {usuario.Idade}");
             }
         }
+
+        public static void BuscarUsuario()
+        {
+            Console.WriteLine("\nDigite o nome do usuário que deseja buscar:");
+            string nome = Console.ReadLine() ?? string.Empty;
+
+            var usuarioEncontrado = usuarios.Find(u => u.Nome.Equals(nome, StringComparison.OrdinalIgnoreCase));
+
+            if (usuarioEncontrado != null)
+            {
+                Console.WriteLine($"Usuário encontrado:\nNome: {usuarioEncontrado.Nome}, \nE-mail: {usuarioEncontrado.Email}, \nIdade: {usuarioEncontrado.Idade}");
+            }
+            else
+            {
+                Console.WriteLine("Usuário não encontrado.");
+            }
+
+        }
     }
 }

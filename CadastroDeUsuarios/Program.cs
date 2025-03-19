@@ -16,6 +16,7 @@ namespace CadastroDeUsuarios
             Console.WriteLine("\nEcolha uma opção:");
             Console.WriteLine("1 - Cadastrar Usuário");
             Console.WriteLine("2 - Listar Usuários");
+            Console.WriteLine("3 - Buscar Usuários");
             Console.WriteLine("0 - Sair");
 
             string opcao = Console.ReadLine() ?? string.Empty;
@@ -27,6 +28,9 @@ namespace CadastroDeUsuarios
                     break;
                 case "2":
                     UsuarioService.ListarUsuarios();
+                    break;
+                case "3":
+                    UsuarioService.BuscarUsuario();
                     break;
                 case "0":
                     Console.WriteLine("Encerrando...");
