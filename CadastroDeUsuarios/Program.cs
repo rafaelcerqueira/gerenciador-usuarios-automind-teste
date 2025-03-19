@@ -17,7 +17,7 @@ namespace CadastroDeUsuarios
             Console.WriteLine("1 - Cadastrar Usuário");
             Console.WriteLine("0 - Sair");
 
-            string opcao = Console.ReadLine();
+            string opcao = Console.ReadLine() ?? string.Empty;
 
             switch (opcao)
             {

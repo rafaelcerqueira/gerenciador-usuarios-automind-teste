@@ -11,10 +11,10 @@ namespace CadastroDeUsuarios.Services
         public static void CadastrarUsuario()
         {
             Console.WriteLine("\nDigite o nome do usuário:");
-            string nome = Console.ReadLine();
+            string nome = Console.ReadLine() ?? string.Empty;
 
             Console.WriteLine("\nDigite o e-mail do usuário:");
-            string email = Console.ReadLine();
+            string email = Console.ReadLine() ?? string.Empty;
 
             Console.WriteLine("\nDigite a idade do usuário:");
             int idade;
@@ -23,7 +23,12 @@ namespace CadastroDeUsuarios.Services
                 Console.WriteLine("Por favor, insira uma idade válida:");
             }
 
-            usuarios.Add(new Usuario { Nome = nome, Email = email, Idade = idade});
+            usuarios.Add(new Usuario
+            {
+                Nome = nome,
+                Email = email,
+                Idade = idade
+            });
             Console.WriteLine("Usuário cadastrado com sucesso!");
 
         }
