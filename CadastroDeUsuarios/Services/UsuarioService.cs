@@ -32,5 +32,20 @@ namespace CadastroDeUsuarios.Services
             Console.WriteLine("Usuário cadastrado com sucesso!");
 
         }
+
+        public static void ListarUsuarios()
+        {
+            Console.WriteLine("\nUsuários cadastrados:");
+            if (usuarios.Count == 0)
+            {
+                Console.WriteLine("Nenhum usuário cadastrado no momento.");
+                return;
+            }
+
+            foreach (var usuario in usuarios)
+            {
+                Console.WriteLine($"Nome: {usuario.Nome}, E-mail: {usuario.Email}, Idade: {usuario.Idade}");
+            }
+        }
     }
 }
